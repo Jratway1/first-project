@@ -1,0 +1,36 @@
+* {border: solid red 1px
+
+}
+
+.header {
+    display: flex;
+    justify-content: end;
+    gap: 16px;
+    padding: 10px 80px;
+    
+}
+
+.header > div {
+    font-size: 20px;
+}
+
+.left {
+    display: flex;
+    margin-right: auto;
+
+}
+
+.right {
+    display: flex;
+    gap: 16px;
+    margin-right: 60px;
+}
+
+.intro {
+    display: flex;
+    justify-content: center;
+    padding: 40px
+}
+
+
+
