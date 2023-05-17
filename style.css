@@ -53,10 +53,11 @@
 }
 
 button {
-    padding: 5px 10px;
+    padding: 5px 20px;
     background-color: #3882f6;
     color: white;
-    font-weight: 500;
+    font-weight: 700;
+    border-radius: 7px;
 
 }
 
@@ -117,10 +118,44 @@ button {
 
 .final {
     padding: 40px;
+    display: flex;
+    justify-content: center;
 }
 
 .call {
     display: flex;
+    justify-content: center;
+    padding: 20px;
+    width: 1000px;
+    gap: 40px;   
+    background-color: #3882f6;
+}
+
+.first {
+   color: white;
+   font-weight: 500; 
+   font-size: 18px;
+   margin-bottom: 10px;
+}
+
+.second {
+    color: white;
+    font-size: 16px;
+}
+
+.call button {
+    border-radius: 15px;
+    border-color: white;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    color: #E5E7EB;
+}
+
+.card img {
+    border-radius: 10px
 }
 
 
