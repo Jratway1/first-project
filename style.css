@@ -17,12 +17,15 @@
 .left {
     display: flex;
     margin-right: auto;
+    color: #f9faf8;
+    font-size: 24px;
 
 }
 
 .right {
     display: flex;
     gap: 16px;
+    color:#E5E7EB
     
 }
 
@@ -37,23 +40,90 @@
 }
 
 .grabber {
-    font-size: 45px;
+    font-size: 48px;
     font-weight: 800;
+    color: #f9faf8;
 }
 
 .addi {
-    font-size: 20px;
+    font-size: 18px;
+    color: #E5E7EB;
+
 
 }
 
 button {
-    padding: 10px;
+    padding: 5px 10px;
+    background-color: #3882f6;
+    color: white;
+    font-weight: 500;
 
 }
 
 .image {
     margin-left: 15px;
 }
+
+.moreinfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.attn p {
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.fourbox {
+    display: flex;
+    gap: 16px;
+}
+
+.fourbox p {
+    width: 150px;
+    text-align: center;
+}
+
+.thirdbody {
+    
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 60px;
+    background-color: #E5E7EB;
+    
+}
+
+.quote {
+    width: 680px;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.name {
+    margin-right: 550px;
+    align-self: flex-end;
+    font-size: 26px;
+    font-weight: 800;
+}
+
+.header,
+.intro,
+.footer {
+    background-color: #1f2937;
+}
+
+.final {
+    padding: 40px;
+}
+
+.call {
+    display: flex;
+}
+
+
 
 
 
